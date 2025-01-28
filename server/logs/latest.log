@@ -1,0 +1,41 @@
+[16:47:21] [ServerMain/INFO]: [bootstrap] Running Java 23 (Java HotSpot(TM) 64-Bit Server VM 23.0.2+7-58; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[16:47:21] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-132-ver/1.21.1@b48403b (2024-11-21T10:14:27Z) for Minecraft 1.21.1
+[16:47:22] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:47:22] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[16:47:26] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:47:26] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[16:47:26] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[16:47:27] [ServerMain/INFO]: No existing world data, creating new world
+[16:47:28] [ServerMain/INFO]: Loaded 1290 recipes
+[16:47:28] [ServerMain/INFO]: Loaded 1399 advancements
+[16:47:28] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[16:47:28] [Server thread/INFO]: Loading properties
+[16:47:28] [Server thread/INFO]: This server is running Paper version 1.21.1-132-ver/1.21.1@b48403b (2024-11-21T10:14:27Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[16:47:29] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:47:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:47:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:47:29] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and population gen parallelism of 3 threads
+[16:47:30] [Server thread/INFO]: Default game type: SURVIVAL
+[16:47:30] [Server thread/INFO]: Generating keypair
+[16:47:30] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:47:30] [Server thread/INFO]: Using default channel type
+[16:47:30] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[16:47:30] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[16:47:30] [Server thread/INFO]: Preparing level "world"
+[16:47:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:47:36] [Server thread/INFO]: Time elapsed: 2527 ms
+[16:47:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:47:37] [Server thread/INFO]: Time elapsed: 619 ms
+[16:47:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:47:37] [Server thread/INFO]: Time elapsed: 216 ms
+[16:47:37] [Server thread/INFO]: [spark] Starting background profiler...
+[16:47:37] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[16:47:37] [Server thread/INFO]: Done preparing level "world" (7.389s)
+[16:47:37] [Server thread/INFO]: Running delayed init tasks
+[16:47:37] [Server thread/INFO]: Done (16.970s)! For help, type "help"
+[16:47:37] [Server thread/INFO]: *************************************************************************************
+[16:47:37] [Server thread/INFO]: This is the first time you're starting this server.
+[16:47:37] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
+[16:47:37] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
+[16:47:37] [Server thread/INFO]: *************************************************************************************
+[16:47:37] [Server thread/INFO]: Timings Reset
