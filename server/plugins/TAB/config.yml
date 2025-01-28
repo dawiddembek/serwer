@@ -2,30 +2,24 @@
 header-footer:
   enabled: true
   header:
-    - "<#FFFFFF>&m                                                </#FFFF00>"
-    - "&3&lServer name"
-    - "&7&l>> %animation:Welcome%&3 &l%player%&7&l! &7&l<<"
-    - "&7Online players: &f%online%"
-    - "&6Online staff: &e%staffonline%"
+    - "&m                                             &r"
+    - "&r"
+    - "&r"
+    - "&r"
+    - "&r"
+    - "㍿"
+    - "&r"
+    - "&r"
+    - "&r"
+    - "%animation:topinfo%"
     - ""
   footer:
-    - "%animation:time%"
-    - "&2Ping: %ping%"
-    - "&7&l Used memory: %memory-used% MB / %memory-max% MB"
     - ""
-    - "&7Visit our webpage %animation:web%"
-    - "<#FFFFFF>&m                                                </#FFFF00>"
-  disable-condition: '%world%=disabledworld'
-  per-world:
-    world1:
-      header:
-        - "an example of world with custom"
-      footer:
-        - "header/footer and prefix/suffix"
-    world2;world3:
-      header:
-        - "This is a shared header for"
-        - "world2 and world3"
+    - "&7ᴅɪѕᴄᴏʀᴅ&8: %animation:logo%"
+    - "&7ᴛɪᴋᴛᴏᴋ&8: %animation:tiktok%"
+    - "&r"
+    - "&m                                             &r"
+
   per-server:
     server1:
       header:
