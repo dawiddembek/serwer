@@ -2,7 +2,7 @@
 header-footer:
   enabled: true
   header:
-    - "&m                                             &r"
+    - "&m                                               &r"
     - "&r"
     - "&r"
     - "&r"
@@ -18,7 +18,7 @@ header-footer:
     - "&7ᴅɪѕᴄᴏʀᴅ&8: %animation:logo%"
     - "&7ᴛɪᴋᴛᴏᴋ&8: %animation:tiktok%"
     - "&r"
-    - "&m                                             &r"
+    - "&m                                              &r"
 
   per-server:
     server1:
@@ -90,19 +90,21 @@ scoreboard:
   respect-other-plugins: true
   scoreboards:
     scoreboard:
-      title: "%animation:scoreboard_logo%" 
+      title: "%animation:scoreboard_logo%"
       lines:
-        - "&m                                             &r"
+        - "&m                          &r"
         - "&7%localtime_time%"
         - "&r"
         - "&#00FFFF&l%player%"
         - "&8| &7ᴘɪɴɢ&8: &#00FF00%ping%" 
-        - "&8| &7ʀᴀɴᴋ&8:&r %luckperms_prefix%" 
+        - "&8| &7ʀᴀɴɢᴀ&8:&r %luckperms_prefix%" 
         - "&r"
         - "&#00ffff&lStats"
-        - "&8⚔ &7ᴋɪʟʟѕ&8: &#FF0000%statistic_player_kills%" 
-        - "&8☠ &7ᴅᴇᴀᴛʜѕ&8: &#61F0B9%statistic_deaths%"
-        - "&8$ &7ʙᴀʟᴀɴᴄᴇ&8: &#00ff00$%vault_eco_balance_fixed%"
+        - "&8⚔ &7ᴢᴀʙóᴊѕᴛᴡᴀ&8: &#FF0000%statistic_player_kills%" 
+        - "&8☠ &7śᴍɪᴇʀᴄɪ&8: &#61F0B9%statistic_deaths%"
+        - "&8☆ &7ᴋᴏɴᴛᴏ&8: &#00ff00$%vault_eco_balance_fixed%"
+        - "&r"
+        - "&m                          &r"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Layout
 layout:
