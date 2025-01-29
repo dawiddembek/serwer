@@ -1,0 +1,7 @@
+isEnabled: true
+structureType:
+- SKY
+validBiomesV2:
+- minecraft:crimson_forest
+- minecraft:custom
+treasureFilename: treasure_nether.yml

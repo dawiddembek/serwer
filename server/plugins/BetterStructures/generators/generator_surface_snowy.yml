@@ -1,0 +1,11 @@
+isEnabled: true
+structureType:
+- SURFACE
+validBiomesV2:
+- minecraft:snowy_taiga
+- minecraft:snowy_beach
+- minecraft:snowy_plains
+- minecraft:snowy_slopes
+- minecraft:ice_spikes
+- minecraft:custom
+treasureFilename: treasure_overworld_surface.yml

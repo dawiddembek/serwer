@@ -1,0 +1,7 @@
+isEnabled: true
+structureType:
+- SKY
+validBiomesV2:
+- minecraft:soul_sand_valley
+- minecraft:custom
+treasureFilename: treasure_nether.yml
