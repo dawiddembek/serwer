@@ -1,0 +1,11 @@
+isEnabled: true
+structureType:
+- SKY
+validBiomesV2:
+- minecraft:badlands
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- minecraft:mushroom_fields
+- minecraft:custom
+treasureFilename: treasure_overworld_surface.yml

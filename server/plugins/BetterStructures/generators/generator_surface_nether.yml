@@ -1,0 +1,7 @@
+isEnabled: true
+structureType:
+- SURFACE
+validWorldEnvironments:
+- NETHER
+validBiomesV2: []
+treasureFilename: treasure_nether.yml

@@ -1,0 +1,7 @@
+isEnabled: true
+structureType:
+- SKY
+validBiomesV2:
+- minecraft:nether_wastes
+- minecraft:custom
+treasureFilename: treasure_nether.yml

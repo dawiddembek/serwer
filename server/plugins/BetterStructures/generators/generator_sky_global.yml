@@ -1,0 +1,5 @@
+isEnabled: true
+structureType:
+- SKY
+validBiomesV2: []
+treasureFilename: treasure_overworld_surface.yml
