@@ -15,9 +15,13 @@
 _version: 31
 anticheat:
   anti-xray:
-    enabled: false
-    engine-mode: 1
+    enabled: true
+    engine-mode: 2
     hidden-blocks:
+    - nether_gold_ore
+    - nether_quartz_ore
+    - netherrack
+    - ancient_debris
     - copper_ore
     - deepslate_copper_ore
     - raw_copper_block
