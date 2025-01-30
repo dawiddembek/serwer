@@ -1,0 +1,10 @@
+Name: '&7&lKity Premium'
+Virtual: false
+Item:
+  Material: TRIPWIRE_HOOK
+  Name: '&7&lKity Premium'
+  Enchants:
+    mending: 1
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_ADDITIONAL_TOOLTIP

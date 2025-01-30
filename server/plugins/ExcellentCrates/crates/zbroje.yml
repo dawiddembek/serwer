@@ -1,0 +1,210 @@
+Name: '&7&lZbroje'
+Preview_Config: default
+Permission_Required: false
+Opening:
+  Cooldown: 0
+Key:
+  # Sets whether or not keys are required to open this crate.
+  Required: true
+  Ids:
+  - kity
+Block:
+  Positions:
+  - 103,64,123,world
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: ASH
+Milestones:
+  Repeatable: false
+Animation_Config: roulette
+Rewards:
+  List:
+    iron_helmet:
+      Name: Iron Helmet
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso300a6qqbeclhn4ob6egt70sjfehim6t39dtn0000004000003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3kqbidtn5uq35dhmmat00
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso300a6qqbeclhn4ob6egt70sjfehim6t39dtn0000004000003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3kqbidtn5uq35dhmmat00
+      Ignored_For_Permissions: []
+    iron_helmet_2:
+      Name: Iron Helmet 2
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600kdlkmspb3e9gmct1qeln64sj5c5lmirj70000008300a6qqbeclhn4ob6egt70sjfehim6t39dtn0000004000003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3kqbidtn5uq35dhmmat00
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600kdlkmspb3e9gmct1qeln64sj5c5lmirj70000008300a6qqbeclhn4ob6egt70sjfehim6t39dtn0000004000003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3kqbidtn5uq35dhmmat00
+      Ignored_For_Permissions: []
+    iron_chestplate:
+      Name: Iron Chestplate
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 180002g019hmurbgdtn6arjkec5005jdd5n6aoric5j78ej5dphmgobeehmmarjkec5001jcclr6ar3j0c018rb9dpim6sj1cpq3ks3idtq6aorkd5nms000000g00000c00aorfeln78000000gg002d5i006bdd5n6aoric5j78ej9e9nmsnr3d1in6t3gdhgn8p80
+      Commands: []
+      Items:
+      - 180002g019hmurbgdtn6arjkec5005jdd5n6aoric5j78ej5dphmgobeehmmarjkec5001jcclr6ar3j0c018rb9dpim6sj1cpq3ks3idtq6aorkd5nms000000g00000c00aorfeln78000000gg002d5i006bdd5n6aoric5j78ej9e9nmsnr3d1in6t3gdhgn8p80
+      Ignored_For_Permissions: []
+    iron_chestplate_2:
+      Name: Iron Chestplate 2
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 2g0005002j3dtmn0rrecln78soa00b6qqbeclhn4ob6egt6arj3d1gmst3dcln78soa0036opbmclm760o02hmmirj5cdp62pjk79qmsojiclgmmqbecs0000010c018rb9dpim6sj1cpq3ks3idtq6aorkd5nms000000g00000c00aorfeln78000000gg002d5i006bdd5n6aoric5j78ej9e9nmsnr3d1in6t3gdhgn8p80
+      Commands: []
+      Items:
+      - 2g0005002j3dtmn0rrecln78soa00b6qqbeclhn4ob6egt6arj3d1gmst3dcln78soa0036opbmclm760o02hmmirj5cdp62pjk79qmsojiclgmmqbecs0000010c018rb9dpim6sj1cpq3ks3idtq6aorkd5nms000000g00000c00aorfeln78000000gg002d5i006bdd5n6aoric5j78ej9e9nmsnr3d1in6t3gdhgn8p80
+      Ignored_For_Permissions: []
+    iron_leggings:
+      Name: Iron Leggings
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600kdlkmspb3e9gmct1qe1p6ut35cdq6irre0000008000006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79kn4rrebtm6apr7d5n6eso0
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600kdlkmspb3e9gmct1qe1p6ut35cdq6irre0000008000006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79kn4rrebtm6apr7d5n6eso0
+      Ignored_For_Permissions: []
+    iron_leggings_2:
+      Name: Iron Leggings 2
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 180002g019hmurbgdtn6arjkec5005jdd5n6aoric5j78ej5dphmgobeehmmarjkec5001jcclr6ar3j0c018rb9dpim6sj1cpq3ktbec9p6aobbd5n6e000000g600kdlkmspb3e9gmct1qe1p6ut35cdq6irre0000008000006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79kn4rrebtm6apr7d5n6eso0
+      Commands: []
+      Items:
+      - 180002g019hmurbgdtn6arjkec5005jdd5n6aoric5j78ej5dphmgobeehmmarjkec5001jcclr6ar3j0c018rb9dpim6sj1cpq3ktbec9p6aobbd5n6e000000g600kdlkmspb3e9gmct1qe1p6ut35cdq6irre0000008000006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79kn4rrebtm6apr7d5n6eso0
+      Ignored_For_Permissions: []
+    iron_boots:
+      Name: Iron Boots
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 180002g019hmurbgdtn6arjkec5005jdd5n6aoric5j78ej5dphmgobeehmmarjkec5001jcclr6ar3j0c018rb9dpim6sj1cpq3ks3idtq6aorkd5nms000000g00000c00aorfeln78000000gg002d5i0053dd5n6aoric5j78ej9e9nmsnr2dtnn8so0
+      Commands: []
+      Items:
+      - 180002g019hmurbgdtn6arjkec5005jdd5n6aoric5j78ej5dphmgobeehmmarjkec5001jcclr6ar3j0c018rb9dpim6sj1cpq3ks3idtq6aorkd5nms000000g00000c00aorfeln78000000gg002d5i0053dd5n6aoric5j78ej9e9nmsnr2dtnn8so0
+      Ignored_For_Permissions: []
+    iron_boots_2:
+      Name: Iron Boots 2
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 2g0005002j3dtmn0rrecln78soa00b6qqbeclhn4ob6egt6arj3d1gmst3dcln78soa0036opbmclm760o02hmmirj5cdp62pjk79qmsojiclgmmqbecs0000010c018rb9dpim6sj1cpq3ks3idtq6aorkd5nms000000g00000c00aorfeln78000000gg002d5i0053dd5n6aoric5j78ej9e9nmsnr2dtnn8so0
+      Commands: []
+      Items:
+      - 2g0005002j3dtmn0rrecln78soa00b6qqbeclhn4ob6egt6arj3d1gmst3dcln78soa0036opbmclm760o02hmmirj5cdp62pjk79qmsojiclgmmqbecs0000010c018rb9dpim6sj1cpq3ks3idtq6aorkd5nms000000g00000c00aorfeln78000000gg002d5i0053dd5n6aoric5j78ej9e9nmsnr2dtnn8so0
+      Ignored_For_Permissions: []
+Item:
+  Material: PLAYER_HEAD
+  SkinURL: 7a3c8c6d3aaa96363d4bef2578f1024781ea14e9d85a9dcfc0935847a6fb5c8d
+  Name: '&fZbroje Crate'
+  Item_Flags:
+  - HIDE_ADDITIONAL_TOOLTIP

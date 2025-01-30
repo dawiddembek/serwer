@@ -1,0 +1,166 @@
+Name: '&7&lJedzenie'
+Preview_Config: default
+Permission_Required: false
+Opening:
+  Cooldown: 0
+Key:
+  # Sets whether or not keys are required to open this crate.
+  Required: true
+  Ids:
+  - kity
+Block:
+  Positions:
+  - 99,64,123,world
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Model: VORTEX
+    Particle:
+      Name: ANGRY_VILLAGER
+Milestones:
+  Repeatable: false
+Animation_Config: roulette
+Rewards:
+  List:
+    apple:
+      Name: Apple
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k0000c00aorfeln78000000gg002d5i003rdd5n6aoric5j78ej1e1o6op80
+      Commands: []
+      Items:
+      - k0000c00aorfeln7800000a0g002d5i003rdd5n6aoric5j78ej1e1o6op80
+      Ignored_For_Permissions: []
+    golden_carrot:
+      Name: Golden Carrot
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a00006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79jmur34cln5uor1e9p6ut00
+      Commands: []
+      Items:
+      - a00006005cdnnarjk000002080016ip002tmmirj5cdp62pjk79jmur34cln5uor1e9p6ut00
+      Ignored_For_Permissions: []
+    steak:
+      Name: Steak
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 500003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3korfdtlmap2vc9imapg0
+      Commands: []
+      Items:
+      - 500003002m6rrldpq000001g4000j9cg01arb9dpim6sj1cpq3korfdtlmap2vc9imapg0
+      Ignored_For_Permissions: []
+    cooked_porkchop:
+      Name: Cooked Porkchop
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k0000c00aorfeln78000000gg002d5i006bdd5n6aoric5j78ej3dtnmmpb4bto6usjbcdk6us00
+      Commands: []
+      Items:
+      - k0000c00aorfeln780000060g002d5i006bdd5n6aoric5j78ej3dtnmmpb4bto6usjbcdk6us00
+      Ignored_For_Permissions: []
+    cooked_mutton:
+      Name: Cooked Mutton
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a00006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79hmurrbcli5urblehq6urg0
+      Commands: []
+      Items:
+      - a00006005cdnnarjk000003o80016ip002tmmirj5cdp62pjk79hmurrbcli5urblehq6urg0
+      Ignored_For_Permissions: []
+    cooked_chicken:
+      Name: Cooked Chicken
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 2g0001g01b3dtqmst000000220009km800odlkmspb3e9gmct1qcdnmuqr5chfm6q39cdlmarg0
+      Commands: []
+      Items:
+      - 2g0001g01b3dtqmst000000u20009km800odlkmspb3e9gmct1qcdnmuqr5chfm6q39cdlmarg0
+      Ignored_For_Permissions: []
+Item:
+  Material: PLAYER_HEAD
+  SkinURL: 7a3c8c6d3aaa96363d4bef2578f1024781ea14e9d85a9dcfc0935847a6fb5c8d
+  Name: '&fJedzenie Crate'
+  Item_Flags:
+  - HIDE_ADDITIONAL_TOOLTIP

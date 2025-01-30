@@ -1,0 +1,212 @@
+Name: '&8&lNarzedzia'
+Preview_Config: default
+Permission_Required: false
+Opening:
+  Cooldown: 0
+Key:
+  # Sets whether or not keys are required to open this crate.
+  Required: true
+  Ids:
+  - kity
+Block:
+  Positions:
+  - 101,64,123,world
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: CHERRY_LEAVES
+Milestones:
+  Repeatable: false
+Rewards:
+  List:
+    iron_pickaxe:
+      Name: Iron Pickaxe
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 2g0005002j3dtmn0rrecln78soa00b6qqbeclhn4ob6egt6arj3d1gmst3dcln78soa0036opbmclm760o02hmmirj5cdp62pjk79imcpj9cdkmarj3f4000001000000o00lhmutbeeg00000110004qb400b6qqbeclhn4ob6egt6isjfdpfn0qb3ddgngp80
+      Commands: []
+      Items:
+      - 2g0005002j3dtmn0rrecln78soa00b6qqbeclhn4ob6egt6arj3d1gmst3dcln78soa0036opbmclm760o02hmmirj5cdp62pjk79imcpj9cdkmarj3f4000001000000o00lhmutbeeg00000110004qb400b6qqbeclhn4ob6egt6isjfdpfn0qb3ddgngp80
+      Ignored_For_Permissions: []
+    iron_pickaxe_2:
+      Name: Iron Pickaxe 2
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 50000a00566rrde1nmspbeehpgk00mdlkmspb3e9gmct1qcln66q31dpq6qpbeehpgk006dhincpbcec1g053dd5n6aoric5j78ejldph74pb1ddkmspo0000020o02hmmirj5cdp62pjk79imcpj9cdkmarj3f4000001000000o00lhmutbeeg00000110004qb400b6qqbeclhn4ob6egt6isjfdpfn0qb3ddgngp80
+      Commands: []
+      Items:
+      - 50000a00566rrde1nmspbeehpgk00mdlkmspb3e9gmct1qcln66q31dpq6qpbeehpgk006dhincpbcec1g053dd5n6aoric5j78ejldph74pb1ddkmspo0000020o02hmmirj5cdp62pjk79imcpj9cdkmarj3f4000001000000o00lhmutbeeg00000110004qb400b6qqbeclhn4ob6egt6isjfdpfn0qb3ddgngp80
+      Ignored_For_Permissions: []
+    iron_pickaxe_3:
+      Name: Iron Pickaxe 3
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 50000a00566rrde1nmspbeehpgk00mdlkmspb3e9gmct1qcln66q31dpq6qpbeehpgk006dhincpbcec1g053dd5n6aoric5j78ejldph74pb1ddkmspo0000020o02hmmirj5cdp62pjk79imcpj9cdkmarj3f4000002000000o00lhmutbeeg00000110004qb400b6qqbeclhn4ob6egt6isjfdpfn0qb3ddgngp80
+      Commands: []
+      Items:
+      - 50000a00566rrde1nmspbeehpgk00mdlkmspb3e9gmct1qcln66q31dpq6qpbeehpgk006dhincpbcec1g053dd5n6aoric5j78ejldph74pb1ddkmspo0000020o02hmmirj5cdp62pjk79imcpj9cdkmarj3f4000002000000o00lhmutbeeg00000110004qb400b6qqbeclhn4ob6egt6isjfdpfn0qb3ddgngp80
+      Ignored_For_Permissions: []
+    iron_axe:
+      Name: Iron Axe
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600kdlkmspb3e9gmct1qclj6cqb3d5imsorp0000008000006005cdnnarjk000000880016ip0029mmirj5cdp62pjk79kn4rrebtgngp80
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600kdlkmspb3e9gmct1qclj6cqb3d5imsorp0000008000006005cdnnarjk000000880016ip0029mmirj5cdp62pjk79kn4rrebtgngp80
+      Ignored_For_Permissions: []
+    iron_axe_2:
+      Name: Iron Axe 2
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 180002g019hmurbgdtn6arjkec5005jdd5n6aoric5j78ej5dphmgobeehmmarjkec5001jcclr6ar3j0c018rb9dpim6sj1cpq3ktbec9p6aobbd5n6e000000g600kdlkmspb3e9gmct1qclj6cqb3d5imsorp0000008000006005cdnnarjk000000880016ip0029mmirj5cdp62pjk79kn4rrebtgngp80
+      Commands: []
+      Items:
+      - 180002g019hmurbgdtn6arjkec5005jdd5n6aoric5j78ej5dphmgobeehmmarjkec5001jcclr6ar3j0c018rb9dpim6sj1cpq3ktbec9p6aobbd5n6e000000g600kdlkmspb3e9gmct1qclj6cqb3d5imsorp0000008000006005cdnnarjk000000880016ip0029mmirj5cdp62pjk79kn4rrebtgngp80
+      Ignored_For_Permissions: []
+    iron_sword:
+      Name: Iron Sword
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso3009mqqbeclhn4ob6egt76q31e9o6spbjec0000010c018rb9dpim6sj1cpq3ktbec9p6aobbd5n6e000000g00000c00aorfeln78000000gg002d5i0053dd5n6aoric5j78ej9e9nmsnrjetnn4p00
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso3009mqqbeclhn4ob6egt76q31e9o6spbjec0000010c018rb9dpim6sj1cpq3ktbec9p6aobbd5n6e000000g00000c00aorfeln78000000gg002d5i0053dd5n6aoric5j78ej9e9nmsnrjetnn4p00
+      Ignored_For_Permissions: []
+    iron_sword_2:
+      Name: Iron Sword 2
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso3009mqqbeclhn4ob6egt76q31e9o6spbjec0000020c018rb9dpim6sj1cpq3ktbec9p6aobbd5n6e000000g00000c00aorfeln78000000gg002d5i0053dd5n6aoric5j78ej9e9nmsnrjetnn4p00
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso3009mqqbeclhn4ob6egt76q31e9o6spbjec0000020c018rb9dpim6sj1cpq3ktbec9p6aobbd5n6e000000g00000c00aorfeln78000000gg002d5i0053dd5n6aoric5j78ej9e9nmsnrjetnn4p00
+      Ignored_For_Permissions: []
+    shield:
+      Name: Shield
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso300a6qqbeclhn4ob6egt7arj2e9im2qr9dpjg000004000003002m6rrldpq00000044000j9cg010rb9dpim6sj1cpq3ksr8d5imop00
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso300a6qqbeclhn4ob6egt7arj2e9im2qr9dpjg000004000003002m6rrldpq00000044000j9cg010rb9dpim6sj1cpq3ksr8d5imop00
+      Ignored_For_Permissions: []
+Animation_Config: roulette
+Item:
+  Material: PLAYER_HEAD
+  SkinURL: 7a3c8c6d3aaa96363d4bef2578f1024781ea14e9d85a9dcfc0935847a6fb5c8d
+  Name: '&fNarzedzia Crate'
+  Item_Flags:
+  - HIDE_ADDITIONAL_TOOLTIP
+Last_Opener: c0j0tt3
+Last_Reward: Iron Axe 2
