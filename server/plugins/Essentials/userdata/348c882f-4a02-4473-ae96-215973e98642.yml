@@ -1,6 +1,6 @@
 teleportenabled: true
 teleportauto: false
-godmode: false
+godmode: true
 muted: false
 jailed: false
 ip-address: 127.0.0.1
@@ -11,20 +11,45 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1738249252322
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1738154647240
-  login: 1738154734238
+  logout: 1738264410921
+  login: 1738251927399
 money: '0'
+last-account-name: Chopek_
+lastlocation:
+  world: 3941f6cc-fb62-499e-b192-a89ecd29c7bf
+  world-name: world
+  x: 128.1865484656059
+  y: 73.53292827534491
+  z: 67.46696033973411
+  yaw: 71.623291015625
+  pitch: 15.291863441467285
+homes:
+  home:
+    world: 3941f6cc-fb62-499e-b192-a89ecd29c7bf
+    world-name: world
+    x: 64.50609325398484
+    y: 65.12696172944284
+    z: 38.56501698560856
+    yaw: 4.051116943359375
+    pitch: 9.119821548461914
+  a:
+    world: 3941f6cc-fb62-499e-b192-a89ecd29c7bf
+    world-name: world
+    x: 58.15473623545916
+    y: 66.78351091432364
+    z: 136.76613702327316
+    yaw: 3.91290283203125
+    pitch: 8.70528507232666
 logoutlocation:
   world: 3941f6cc-fb62-499e-b192-a89ecd29c7bf
   world-name: world
-  x: -127.86887710440028
-  y: 85.11650136792812
-  z: 150.20781040975737
-  yaw: 155.595703125
-  pitch: 18.00788688659668
-last-account-name: Chopek_
+  x: 77.47215104918455
+  y: 81.0
+  z: 219.93816744804207
+  yaw: 33.2509765625
+  pitch: 49.76799392700195
