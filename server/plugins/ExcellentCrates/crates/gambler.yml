@@ -1,0 +1,80 @@
+Name: Gambler Crate
+Preview_Config: default
+Permission_Required: false
+Opening:
+  Cooldown: 0
+Key:
+  # Sets whether or not keys are required to open this crate.
+  Required: false
+  Ids:
+  - gambler
+Block:
+  Positions:
+  - 99,64,133,world
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: false
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: CHERRY_LEAVES
+Milestones:
+  Repeatable: false
+Animation_Config: csgo
+Rewards:
+  List:
+    beacon:
+      Name: Beacon
+      Weight: 10.0
+      Rarity: legendary
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 500003002m6rrldpq00000044000j9cg010rb9dpim6sj1cpq3koj5c5hmurg0
+      Commands: []
+      Items:
+      - 500003002m6rrldpq00000044000j9cg010rb9dpim6sj1cpq3koj5c5hmurg0
+      Ignored_For_Permissions: []
+    gold:
+      Name: Gold
+      Weight: 90.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 500003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3kprfdhi5urjlctjmat00
+      Commands: []
+      Items:
+      - 500003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3kprfdhi5urjlctjmat00
+      Ignored_For_Permissions: []
+Item:
+  Material: PLAYER_HEAD
+  SkinURL: 7a3c8c6d3aaa96363d4bef2578f1024781ea14e9d85a9dcfc0935847a6fb5c8d
+  Name: '&fGambler Crate'
+  Item_Flags:
+  - HIDE_ADDITIONAL_TOOLTIP
+Last_Opener: c0j0tt3
+Last_Reward: Gold
