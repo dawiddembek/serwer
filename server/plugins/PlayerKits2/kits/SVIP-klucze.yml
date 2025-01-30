@@ -1,0 +1,55 @@
+cooldown: 43200
+one_time: false
+auto_armor: false
+permission_required: true
+save_original_items: true
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: OAK_LOG
+  '2':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: OAK_LOG
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false
+display:
+  default:
+    id: light_blue_shulker_box
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&fThis is a description of the kit.'
+    - ''
+    - '&7Edit it on the &c%kit_name%.yml &7file'
+    - '&7or using &c/kit edit %kit_name%'
+    item_flags:
+    - HIDE_ATTRIBUTES
+  no_permission:
+    id: BARRIER
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cNie masz permisji aby '
+    - '&codebrac zestaw.'
+  cooldown:
+    id: light_gray_shulker_box
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cMusisz zaczekac &7%time%'
+    - '&cby odebrac ten zestaw.'
+    item_flags:
+    - HIDE_ATTRIBUTES

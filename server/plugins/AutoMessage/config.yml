@@ -1,0 +1,13 @@
+timer: 600
+Random: false
+UseTellRawMessages: true
+Messages:
+- '&eThis is default message 1, Please \nchange this in &cconfig.yml'
+- '&cThis is default message 2, You can change this in &cconfig.yml'
+- '&fThis is default message 3, You can change this in &cconfig.yml'
+- '&bThis is default message 4, You can change this in &cconfig.yml'
+- '&6This is default message 5, You can change this in &cconfig.yml'
+- '{"text":"Click me to run help command!","color":"yellow","bold":true,"clickEvent":{"action":"run_command","value":"/help"}}'
+TellRawMessages:
+- '["",{"text":"Podoba ci sie gra na serwerze? Zachecamy do wsparcia nas poprzez zakupy
+  rang/kluczy, kliknij w wiadomosc aby przejsc do sklepu!","color":"blue","bold":true,"underlined":false,"clickEvent":{"action":"open_url","value":"https://discord.gg/Sp2kZvtj"}}]'

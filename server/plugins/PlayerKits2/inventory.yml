@@ -1,0 +1,76 @@
+inventories:
+  main_inventory:
+    slots: 54
+    title: '&4&lKits'
+    0;1;7;8;9;17;36;44;45;46;52;53:
+      item:
+        id: BLACK_STAINED_GLASS_PANE
+        name: ' '
+        amount: 1
+    '49':
+      item:
+        id: DIAMOND_BLOCK
+        name: '&ePremium Kits'
+        amount: 1
+      open_inventory: premium_kits_inventory
+    '22':
+      type: 'kit: Daily'
+  premium_kits_inventory:
+    slots: 54
+    title: '&e&lPremium Kits'
+    0;1;7;8;9;17;36;44;45;46;52;53:
+      item:
+        id: YELLOW_STAINED_GLASS_PANE
+        name: ' '
+        amount: 1
+    '49':
+      item:
+        id: IRON_BLOCK
+        name: '&eNormal Kits'
+        amount: 1
+      open_inventory: main_inventory
+    '3':
+      type: 'kit: VIP'
+    '21':
+      type: 'kit: SVIP'
+    '23':
+      type: 'kit: SVIP-klucze'
+    '5':
+      type: 'kit: VIP-klucze'
+    '42':
+      type: 'kit: Sponsor-klucze2'
+    '40':
+      type: 'kit: Sponsor-klucze'
+    '38':
+      type: 'kit: Sponsor'
+  preview_inventory:
+    slots: 54
+    title: '&4&lKit Preview'
+    '45':
+      item:
+        id: ARROW
+        name: '&7Go Back'
+        amount: 1
+      open_inventory: previous
+  buy_requirements_inventory:
+    slots: 27
+    title: '&4&lBuy Kit Requirements'
+    '13':
+      item:
+        id: BOOK
+        name: '&c&lRequirements'
+        amount: 1
+        lore:
+        - '%kit_requirements_message%'
+    '10':
+      type: buy_no
+      item:
+        id: RED_STAINED_GLASS_PANE
+        name: '&cGo Back'
+        amount: 1
+    '16':
+      type: buy_yes
+      item:
+        id: GREEN_STAINED_GLASS_PANE
+        name: '&aBuy'
+        amount: 1
