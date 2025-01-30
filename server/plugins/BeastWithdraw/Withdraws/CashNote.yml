@@ -1,0 +1,95 @@
+##Configuration for BeastWithdraw by MrAxeTv
+##Plugin use intended for MC 1.7 - 1.20+
+##Notic all values of withdraw amount are stored as NBT data on items so make sure other plugins for storing items have support for storing NBT data.
+##--------------------------------------------------------------------------------------------------------##
+##Cash storing to a note.
+Settings:
+  ##Set which item you want to use for Cash-Notes.
+  ##Even if u changed to new item the old withdrawn items by player will be usable because of NBT  data storing.
+  Item: "PAPER"
+  # Used for version under 1.13!
+  Data: 0
+  ##Add enchant glow to item.
+  Glow: true
+  #Custm model data is supported on 1.14+ versions
+  CustomModel:
+    Data: 0
+    AmountModelData:
+      #Amount Model Data will use different Custom models per specific amount
+      #for example all CashNote from $100 up to $999 will use CustomModelData: 1 and all CashNotes with $1000 or more will use CustomModelData:2
+      #you can add as many models you want just use syntax shown below in default config!
+      Enabled: false
+      Range:
+        - "100-Data:1"
+        - "1000-Data:2"
+  ##Set up your item display name & lores how do you like.
+  ##This is part of configuration for item which player will get when they withdraw there money /bWithdraw <money>.
+  Player:
+    Name: "&a&lCash-Note &7(Right-Click)"
+    Lore:
+      - "&dValue:&r $%amount%"
+      - "&dSigner:&r %player%"
+  ##This is part of configuration for item withdraw by staff or console /bWithdraw <money> <player> <note-amount>.
+  Server:
+    Name: "&a&lCash-Note &7(Throw)"
+    Lore:
+      - "&dValue:&r $%amount%"
+      - "&dSigner:&r Beast Bank"
+  ##Minimum amount which can be withdrawn to cash-note.
+  Min: 25
+  ##Maximum amount which can be withdrawn to cash-note.
+  Max: 10000
+  ## Max amount of bottle which can be created per execution of command
+  MaxStackSize: 64
+
+  ##Min and Max amount per permissions.
+  ##Permission should be BeastWithdraw.CashNote.PermissionNotes.<name_of_perm>
+  ##Here is one example: if player has "BeastWithdraw.CashNote.PermissionNotes.Small" permission they will be able to withdraw minimum 20 and maximum 50000
+  ##You can rename this permissions settings and add new ones how you like.
+  ##If PermissionNotes are enabled they will override default min and max setting if player has any of permissions for this groups.
+  PermissionNotes:
+    Enabled: false
+    Small:
+      Min: 20
+      Max: 50000
+      MaxStackSize: 64
+    Medium:
+      Min: 10
+      Max: 100000
+      MaxStackSize: 64
+    High:
+      Min: 10
+      Max: 100000
+      MaxStackSize: 64
+  ##Charge "Tax" or "Fee" to players when they withdraw CashNote.
+  Charges:
+    ##Tax will take specified percentage amount when player withdraw's CashNote (0.01% to 100% Possible values).
+    ##Bypass Tax permission "BeastWithdraw.CashNote.ByPass.Tax".
+    Tax:
+      Enabled: false
+      Percentage: 5
+    ##Fee will take amount when player withdraw's CashNote.
+    ##Bypass Fee permission "BeastWithdraw.CashNote.ByPass.Fee".
+    Fee:
+      Enabled: false
+      Cost: 100
+
+  ##Play a sounds when player withdraw or redeem CashNote!
+  ##Sounds  for 1.9 and above: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+  ##Sounds for 1.7 and 1.8: https://www.spigotmc.org/wiki/cc-sounds-list/
+  Sounds:
+    Withdraw:
+      Sound: "ENTITY_GENERIC_EXPLODE"
+      Enabled: true
+    Redeem:
+      Sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+      Enabled: true
+
+  ##This is invisible lore name in which is stored amount of money change the name if you want disable old cashnotes.
+  NBTLore: "bCashNote"
+  ##Set up aliases for /bWithdraw command
+  Aliases: [cashnote, withdraw, moneywithdraw, moneynote]
+
+  ##Format of
+##--------------------------------------------------------------------------------------------------------##
+ConfigVersion: 1.1
